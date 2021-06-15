@@ -6,10 +6,13 @@ const daysOfWeek = {
     5: 'Friday',
     6: 'Saturday',
     7: 'Sunday'
-}'
+}
 
 function returnDay(num) {
     if (num < 1 || num > 7) {
         return null;
+    } else {
+        day = daysOfWeek[num];
+        return day
     }
 }
