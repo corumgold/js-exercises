@@ -12,5 +12,5 @@
 const userNames = ['bill', 'samiami', 'd392408342rfi', 'staceysmom1978', 'fionalvr']
 
 const validUserNames = userNames.filter(u => {
-    u.length <= 10;
+    return u.length <= 10;
 })
